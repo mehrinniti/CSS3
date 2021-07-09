@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container,
+        .inner {
+            width: 100px;
+            height: 100px;
+            border: 2px solid indianred;
+        }
+
+        .container {
+            background-color: rgb(253, 247, 192);
+        }
+
+        .inner {
+            background-color: lightblue;
+            transform: scale(.65) rotate(45deg) translate(80px, -30px) skew(-30deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transformer</h1>
+
+    <div class="box container">
+        <div class="inner">Box-1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">Box-2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">Box-3</div>
+    </div>
+</body>
+
+</html>

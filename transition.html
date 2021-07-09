@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Animation</title>
+    <style>
+        .box {
+            width: 90px;
+            height: 90px;
+            border: 5px solid rosybrown;
+            background-color: seashell;
+            margin-top: 5px;
+            transition: width 5s, height 5s, color 10s, transform 10s;
+        }
+
+        .box:hover {
+            width: 150px;
+            height: 150px;
+            color: orangered;
+            transform: rotate(180deg) scale(.6);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h3>Transition-1</h3>
+    </div>
+    <div class="box">
+        <h3>Transition-2</h3>
+    </div>
+    <div class="box">
+        <h3>Transition-3</h3>
+    </div>
+    <div class="box">
+        <h3>Transition-4</h3>
+    </div>
+</body>
+
+</html>
